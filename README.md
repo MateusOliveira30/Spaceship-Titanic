@@ -1,40 +1,41 @@
 # Spaceship Titanic
 
-### Descrição
-Este projeto utiliza dados da competição Spaceship Titanic no Kaggle. O objetivo é prever se um passageiro foi transportado para uma dimensão alternativa durante a colisão da nave espacial Titanic com uma anomalia no espaço-tempo.
+### Description
+This project uses data from the Spaceship Titanic competition on Kaggle. The objective is to predict whether a passenger was transported to an alternate dimension during the collision of the Titanic spaceship with a space-time anomaly.
 
-### Objetivo
-A tarefa é desenvolver um modelo preditivo que determine se um passageiro foi transportado para outra dimensão, com base nas informações disponíveis dos passageiros.
+### Objective
+The task is to develop a predictive model that determines if a passenger was transported to another dimension based on the available passenger information.
 
-### Dados
-Os dados fornecidos incluem:
+### Data
+The provided data includes:
 
-train.csv: Contém registros pessoais de aproximadamente dois terços dos passageiros (~8700), usados para treinamento do modelo.
+train.csv: Contains personal records of approximately two-thirds of the passengers (~8700), used for model training.
 
-test.csv: Contém registros pessoais do restante dos passageiros (~4300), usados para testar o modelo e prever se foram transportados.
+test.csv: Contains personal records of the remaining passengers (~4300), used to test the model and predict if they were transported.
 
-sample_submission.csv: Arquivo de exemplo para submissão, no formato correto.
+sample_submission.csv: Example submission file in the correct format.
 
-### Colunas dos Dados
-PassengerId: ID único para cada passageiro, com o formato gggg_pp.
+### Data Columns
 
-HomePlanet: Planeta de origem do passageiro.
+PassengerId: Unique ID for each passenger, in the format gggg_pp.
 
-CryoSleep: Indica se o passageiro foi colocado em animação suspensa durante a viagem.
+HomePlanet: The passenger's home planet.
 
-Cabin: Número da cabine onde o passageiro está hospedado.
+CryoSleep: Indicates if the passenger was put into suspended animation during the voyage.
 
-Destination: Planeta para onde o passageiro irá desembarcar.
+Cabin: Cabin number where the passenger is staying.
 
-Age: Idade do passageiro.
+Destination: The planet where the passenger will disembark.
 
-VIP: Indica se o passageiro pagou por serviço VIP especial.
+Age: The passenger's age.
 
-RoomService, FoodCourt, ShoppingMall, Spa, VRDeck: Valor cobrado pelo passageiro em várias comodidades de luxo.
+VIP: Indicates if the passenger paid for special VIP service.
 
-Name: Nome completo do passageiro.
+RoomService, FoodCourt, ShoppingMall, Spa, VRDeck: Amount charged to the passenger for various luxury amenities.
 
-Transported: Variável alvo, indicando se o passageiro foi transportado para outra dimensão (True ou False).
+Name: The passenger's full name.
 
-### Resultados
+Transported: Target variable, indicating whether the passenger was transported to another dimension (True or False).
+
+### Results
 ![image](https://github.com/user-attachments/assets/20b7a3b2-7726-4731-b421-d2c2ce5b67a7)
